@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    background-color: #1DA1F2;
+    color: #FFF;
+    text-align: center;
+}
+header {
+    margin: 8.33em auto;
+}
+
+.box .quote, .box .author {
+    display: block;
+    margin: 1.25em auto;
+}
+
+.trigger, .tweet {
+    border-radius: 4px;
+    border: 1px solid silver;
+    display: block;
+    margin: 1em auto;
+    padding: 7px;
+}
+.tweet {
+    width: 100px;
+}
