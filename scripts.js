@@ -28,7 +28,7 @@ function createTweet(input) {
     } else {
         var tweet = tweetLink + encodeURIComponent(tweetText);
         document.querySelector('.quote').innerText = quoteText;
-        document.querySelector('.author').innerText = quoteAuthor;
+        document.querySelector('.author').innerText = 'Author: ' + quoteAuthor;
         document.querySelector('.tweet').setAttribute('href', tweet);
     }
 }
